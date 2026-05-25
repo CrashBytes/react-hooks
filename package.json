@@ -1,11 +1,13 @@
 {
   "name": "@crashbytes/react-hooks",
   "version": "1.0.0",
-  "description": "Zero-dependency collection of essential React hooks — localStorage, debounce, media queries, and more.",
+  "description": "Zero-dependency collection of essential React hooks \u2014 localStorage, debounce, media queries, and more.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c && tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
     "test": "jest",
@@ -13,7 +15,15 @@
     "lint": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["react", "hooks", "useLocalStorage", "useDebounce", "useMediaQuery", "usePrevious", "useToggle"],
+  "keywords": [
+    "react",
+    "hooks",
+    "useLocalStorage",
+    "useDebounce",
+    "useMediaQuery",
+    "usePrevious",
+    "useToggle"
+  ],
   "author": "CrashBytes",
   "license": "MIT",
   "repository": {
@@ -24,17 +34,21 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "^11.1.6",
-    "@testing-library/react": "^16.0.0",
-"@types/jest": "^29.5.12",
-    "@types/react": "^18.3.0",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "rollup": "^4.18.0",
-    "ts-jest": "^29.1.4",
-    "tslib": "^2.6.3",
-    "typescript": "^5.5.0"
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@testing-library/react": "^16.3.2",
+    "@types/jest": "^30.0.0",
+    "@types/react": "^19.2.15",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "rollup": "^4.60.4",
+    "ts-jest": "^29.4.11",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "handlebars": "^4.7.9",
+    "picomatch": "^4.0.4"
   }
 }
