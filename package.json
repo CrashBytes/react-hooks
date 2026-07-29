@@ -50,6 +50,8 @@
   "overrides": {
     "handlebars": "^4.7.9",
     "picomatch": "^4.0.4",
-    "js-yaml": "^3.15.0"
+    "js-yaml": "^3.15.0",
+    "brace-expansion@1": "^1.1.16",
+    "brace-expansion@2": "^2.1.2"
   }
 }
