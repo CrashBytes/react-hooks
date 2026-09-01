@@ -35,14 +35,14 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.3.0",
-    "@testing-library/react": "^16.3.2",
+    "@testing-library/react": "^16.3.3",
     "@types/jest": "^30.0.0",
     "@types/react": "^19.2.18",
-    "jest": "^30.4.2",
-    "jest-environment-jsdom": "^30.4.1",
+    "jest": "^30.5.1",
+    "jest-environment-jsdom": "^30.5.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "rollup": "^4.62.4",
+    "rollup": "^4.63.1",
     "ts-jest": "^29.4.12",
     "tslib": "^2.8.1",
     "typescript": "^6.0.3"
